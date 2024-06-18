@@ -277,12 +277,12 @@ body {
     white-space: nowrap;
     padding: 0 6rem;
     letter-spacing: 1px;
-    animation: move-t 3000ms linear infinite;
+    animation: move-t 10000ms linear infinite;
 }
 
 @keyframes move-t {
     0% {
-        transform: translateX(0);
+        transform: none;
     }
 
     100% {
@@ -1400,7 +1400,7 @@ body {
     transition: .3s ease
 }
 
-.container .contact-section .right-content .container-content .button:hover{
+.container .contact-section .right-content .container-content .button:hover {
     background-color: rgba(65, 63, 66, 1);
 }
 
